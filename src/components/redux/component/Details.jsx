@@ -5,7 +5,7 @@ import myStore from '../store/myStore';
 
 function Details() {
 
-    let data = useSelector((store)=>myStore);
+    let data = useSelector((myStore)=> {return myStore});
 
     return(
         <div className='Details'>
