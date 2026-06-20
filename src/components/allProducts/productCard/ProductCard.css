@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mycard{
+    height: 400px;
+    width: 300px;
+    border: 2px solid burlywood;
+}
+img{
+    height: 200px;
+    width: 150px;
+}
